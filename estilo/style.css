@@ -53,44 +53,26 @@ header p {
 
 aside {
     height: 256px;
+    text-align: center;
     /*padding-block: 10px;*/
 }
 
 iframe{
-    position: fixed;
-    width: 40%;
-    right: 50px;
+    width: 80%;
     box-shadow: 5px 5px 10px rgba(34, 34, 34, 0.425);
-}
-
-div#videoT {
-    height: 256px;
-    font-size: 1.3em;
-    margin-left: 10%;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 50%;
-    font-family: var(--fonte2);
-}
-
-#icone {
-    margin-left: 20px;
 }
 
 /* seção ------------------------ */
 
 section {
-    width: 100%;
-    padding-block: 10vh;
+    padding-block: 5vh;
     font-family: var(--fonte3);
     font-size: 1.2em;    
 }
 
 section p {
     padding: 0.9em;
-    padding-left: 11vh;
-    padding-right: 8vh;
+    padding-inline: 5vh;
 }
 
 section.normal {
@@ -102,7 +84,6 @@ section.imagem {
     background-color: hotpink;
     color: var(--preto-escuro);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
-    background-size: cover;
 }
 
 section.imagem article{
@@ -121,10 +102,9 @@ section.normal p:hover{
 }
 
 article {
-    display: inline-block;
-    width: 50%;
+    width: 90%;
     text-align: right;
-    margin-inline: 25px;
+    margin: auto;
 }
 
 /* efeito parallax simples ----------------------- */
