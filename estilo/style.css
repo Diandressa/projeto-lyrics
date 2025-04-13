@@ -136,6 +136,13 @@ article {
 section#img01{
     background: hotpink url('../imagens/background008.jpg') center center no-repeat fixed;
     background-size: cover;
+    padding-top: 9rem;
+}
+
+@media (max-width: 900px){
+    section#img01{
+        padding-top: 28rem;
+    }
 }
 
 section#img02{
