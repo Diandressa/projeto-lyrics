@@ -2,7 +2,8 @@
 
 ![Imagem de capa](/imagens/capaREADME.png)
 
->Você pode acessar o projeto por [aqui](https://diandressa.github.io/projeto-site-mobile/)
+>Você pode acessar o projeto por <a href="https://diandressa.github.io/projeto-lyrics/" target="_blank">aqui</a>
+
 
 ## Ferramentas usadas
 
