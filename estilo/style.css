@@ -26,6 +26,7 @@ html, body {
     background-color: var(--fundo-branco);
     scroll-behavior: smooth;
     font-family: var(--fonte1);
+    position: relative;
 }
 
 /* header ------------------------ */
@@ -49,17 +50,40 @@ header p {
     font-size: 1.2em;
 }
 
+.fixed{
+    position: fixed;
+    width: 100vw;
+}
+
 /* aside/iframe ------------------------ */
 
 aside {
-    height: 256px;
     text-align: center;
-    /*padding-block: 10px;*/
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 4.2rem;
+    background-color: #8C3BDE;
+    width: 35%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 900px){
+    aside{
+        margin-left: initial;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        margin-top: 0;
+    }
+
+    iframe{
+        height: 300px;
+    }
 }
 
 iframe{
-    width: 80%;
     box-shadow: 5px 5px 10px rgba(34, 34, 34, 0.425);
+    margin-right: 18rem;
 }
 
 /* seção ------------------------ */
